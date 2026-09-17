@@ -3,23 +3,30 @@
     <head>
         <meta charset="UTF-8">
         <title> my first webpage</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" href="cute.png">
     </head>
     <body>
 <!-- this part contains the main information about me -->
-<h1>Saya</h1> 
-<h2> web technologies </h2>
-<h3> about me </h3> 
-<p> hiiiiii! my name is Zhansaya. my favorite colours are light blue and pink. 
-    my birthday is 1st february and my sign is aquarius. 
-    i like astrology, beauty and cooking.  </p>
+<div class="header">
+    <h1 id="main-heading">Saya</h1>
+    <h2>web technologies</h2>
+</div>
+<div class="main-content"> 
+    <h3> about me </h3> 
+<p style="color:indianred"> hiiiiii! my name is Zhansaya. my favorite colours are light blue and pink. 
+    my birthday is 1st february and my sign is aquarius.  </p>
+<p class="highlight">
+    i like astrology, beauty and cooking
+</p>
 <!-- in this part i used ordered list to write hobbies and unordered list for the websites, also i add clickable links -->
-<h3>my hobbies</h3>
+<h3 class="highlight">my hobbies</h3>
 <ol> 
     <li>cooking</li>
     <li>watching movies</li>
     <li>doing makeup</li>
 </ol>
-<h3> my favorite websites</h3>
+<h3 class="highlight"> my favorite websites</h3>
 <ul>
     <li><a href="https://www.pinterest.com/">Pinterest</a></li>
     <li><a href="https://www.youtube.com/">YouTube</a></li>
@@ -51,7 +58,7 @@
         <td>17.00-17.50</td>
     </tr>
 </table>
-<table border="1">
+<table>
     <tr>
         <td>Menu</td>
         <td>Main Content</td>
@@ -60,6 +67,7 @@
 <!-- in this part i describe my mood today by using HTML  entity-->
 <h3> my mood today</h3>
 <p> today I feel happy &#128515; , but at the same time I feel a little tired &#129393; and nervous &#129324;</p>
+</div>
 <h3>Contact Me</h3>
 <form>
     <label>Name:</label>
@@ -76,5 +84,28 @@
 
     <input type="submit" value="Submit">
 </form>
+<div class="position-container">
+    <div class="static-box">
+        static
+    </div>
+    <div class="relative-box">
+        relative
+    </div>
+    <div class="absolute-box">
+        absolute
+    </div>
+</div>
+<div class="float-container">
+    <div class="left-box">
+        left Box
+    </div>
+    <div class="right-box">
+        right Box
+    </div>
+    <div class="clear"></div>
+</div>
+<div class="footer">
+    <p>© 2026 My First Webpage</p>
+</div>
 </body>
 </html>
