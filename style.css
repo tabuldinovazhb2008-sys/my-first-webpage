@@ -1,11 +1,6 @@
 body {
     background-color:khaki
 }
-
-h1 {
-    font-size: 40px;
-    color:aquamarine
-}
 h2 {
     font-size: 2em;
     color:cornflowerblue
@@ -13,24 +8,29 @@ h2 {
 p {
     font-size: 1rem;
 }
+img {
+    width: 20rem;
+    border: 3px lavender; 
+}
+form {
+    background-color: aliceblue;
+    border: 2px solid lightblue;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+#main-heading {
+   color: aqua;
+   text-align: center;
+   font-size: 67px;
+}
 .highlight {
     background-color:wheat;
     font-weight: bold;
 }
-img {
-    width: 15rem;
-}
-#main-heading {
-    text-align: center;
-}
 .header {
     background-color: thistle;
     padding: 30px;
-}
-.footer {
-    background-color: rgb(211, 243, 255);
-    color: #ffffff;
-    padding: 20px;
 }
 .main-content {
     background-color: aliceblue;
@@ -38,6 +38,11 @@ img {
     padding: 30px;
     margin: 20px;
     width: 80%;
+}
+.footer {
+    background-color: rgb(211, 243, 255);
+    color: #ffffff;
+    padding: 20px;
 }
 .position-container {
     position: relative;
