@@ -34,10 +34,12 @@ form {
 }
 .main-content {
     background-color: aliceblue;
-    border: 2px solid black;
-    padding: 30px;
+    border: 2px solid lightblue;
+    padding: 20px;
     margin: 20px;
     width: 80%;
+    border-radius: 10px;
+
 }
 .footer {
     background-color: rgb(211, 243, 255);
