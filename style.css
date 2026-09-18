@@ -14,11 +14,10 @@ p {
     font-size: 1rem;
 }
 .highlight {
-    background-color: darkorchid;
+    background-color:wheat;
     font-weight: bold;
 }
 #main-heading {
-    color:seagreen;
     text-align: center;
 }
 .header {
