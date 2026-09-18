@@ -17,6 +17,9 @@ p {
     background-color:wheat;
     font-weight: bold;
 }
+img {
+    width: 15rem;
+}
 #main-heading {
     text-align: center;
 }
